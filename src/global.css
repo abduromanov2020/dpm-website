@@ -1,0 +1,69 @@
+@font-face {
+  font-family: "Metropoliz";   /*Can be any text*/
+  src: local(""),
+    url("assets/font/Metropolis-Regular.otf") format("opentype");
+}
+@font-face {
+  font-family: "Metropoliz";   /*Can be any text*/
+  font-weight: bold;
+  src: local(""),
+    url("assets/font/Metropolis-Bold.otf") format("opentype");
+}
+@font-face {
+  font-family: "Gilroyz";   /*Can be any text*/
+  src: local(""),
+    url("assets/font/Gilroy-Light.otf") format("opentype");
+}
+@font-face {
+  font-family: "Gilroyz";   /*Can be any text*/
+  font-weight: bold;
+  src: local(""),
+    url("assets/font/Gilroy-ExtraBold.otf") format("opentype");
+}
+
+@font-face {
+  font-family: "Franklin";   /*Can be any text*/
+  font-weight: bold;
+  src: local(""),
+    url("assets/font/franklin-gothic-medium.ttf") format("truetype");
+}
+
+:root {
+  --primary-color : #0A4B7C;
+  --secondary-color: #248bcc;
+  --light-mode:#fff;
+  --dark-mode:#111;
+  --gradient-color: linear-gradient(90deg, hsla(203, 70%, 47%, 1) 0%, hsla(206, 85%, 26%, 1) 100%);
+  --gilroy: "Gilroyz"
+}
+
+* {
+  padding: 0;
+  margin: 0;
+  font-family: "Metropoliz";
+  box-sizing: border-box;
+}
+
+a {
+  text-decoration: none;
+}
+
+.error {
+  margin-top: 2rem;
+  width: 100%;
+  padding: 1.5rem;
+  border: 1px solid crimson;
+  background-color: lightpink;
+  color: crimson;
+  border-radius: 5px;
+}
+
+.success {
+  margin-top: 2rem;
+  width: 100%;
+  padding: 1.5rem;
+  border: 1px solid seagreen;
+  background-color: mediumseagreen;
+  color: darkgreen;
+  border-radius: 5px;
+}
