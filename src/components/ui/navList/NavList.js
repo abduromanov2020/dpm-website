@@ -9,7 +9,7 @@ const NavList = styled.nav`
   a {
     font-family: "Franklin", sans-serif;
     font-size: 1.05em;
-    color: white;
+    color: var(--primary-color);
     cursor: pointer;
   }
 

@@ -68,8 +68,8 @@ function Footer() {
             </ul>
           </Container>
           <Container>
-            <h2>Reformasi Santai</h2>
-            <p>"Santai Membawa Perubahan"</p>
+            <h2>ALPHA ESTAFETA</h2>
+            <p>"Siap menjalankan Reformasi"</p>
             <Container className="logo">
               <Logo src={LogoDPM} width="50" />
               <Logo src={LogoSTTNF} width="50" />

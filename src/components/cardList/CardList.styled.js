@@ -6,6 +6,7 @@ const StyledCardList = styled.div`
   a {
     color: var(--primary-color);
     font-size: 18px;
+    font-weight: bold;
   }
 
   img {

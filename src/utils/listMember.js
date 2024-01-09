@@ -1,115 +1,151 @@
-import yusman from "../assets/image/yusman.jpg";
-import etka from "../assets/image/etka.jpg";
-import arin from "../assets/image/arin.jpg";
-import salma from "../assets/image/salma.jpg";
-import zaki from "../assets/image/zaki.jpg";
-import devita from "../assets/image/devita.jpg";
-import himmah from "../assets/image/himmah.jpg";
-import azka from "../assets/image/azka.jpg";
-import alip from "../assets/image/alip.jpg";
-import imada from "../assets/image/imada.jpg";
-import assaufi from "../assets/image/assaufi.png";
-import farhat from "../assets/image/farhat.jpg";
-import annisa from "../assets/image/annisa.jpg";
-import yozi from "../assets/image/yozi.jpg";
-import egy from "../assets/image/egy.jpg";
-import ali from "../assets/image/ali.jpg";
-import fikri from "../assets/image/fikri.jpg";
-import ara from "../assets/image/ara.jpg";
-import alfatih from "../assets/image/alfatih.jpg";
-import sausan from "../assets/image/sausan.jpg";
-import margi from "../assets/image/margi.jpg";
+import ali from "../assets/image/ali.JPG";
+import althaf from "../assets/image/althaf.JPG";
+import aria from "../assets/image/aria.JPG";
+import devita from "../assets/image/devita.JPG";
+import egy from "../assets/image/egy.JPG";
+import eva from "../assets/image/eva.JPG";
+import fatya from "../assets/image/fatya.JPG";
+import fikri from "../assets/image/fikri.JPG";
+import imada from "../assets/image/imada.JPG";
+import zara from "../assets/image/zara.JPG";
+import margi from "../assets/image/margi.JPG";
+import marsha from "../assets/image/marsha.JPG";
+import mila from "../assets/image/mila.JPG";
+import miqdad from "../assets/image/miqdad.JPG";
+import nadya from "../assets/image/nadya.JPG";
+import salma from "../assets/image/salma.JPG";
+import sausan from "../assets/image/sausan.JPG";
+import saya from "../assets/image/saya.JPG";
+import salsha from "../assets/image/salsha.JPG";
+import syaffa from "../assets/image/syaffa.JPG";
+import syifa from "../assets/image/syifa.JPG";
+import yafie from "../assets/image/yafie.JPG";
+import yunita from "../assets/image/yunita.JPG";
+import zaki from "../assets/image/zaki.JPG";
 
 export const member = [
   {
-    title: "M Yusuf Salman",
-    role: "Ketua DPM 2022",
+    title: "Ahmad Muzakky",
+    role: "Ketua DPM 2023",
     komisi: "Ketua",
-    url: yusman,
+    url: zaki,
   },
-  { title: "Rafli Edka", role: "Sekretaris", komisi: "Waket 1", url: etka },
-  { title: "Arina Sholiha", role: "Bendahara", komisi: "Waket 2", url: arin },
   {
-    title: "Salma Salsabilla F",
+    title: "Fikri Pratama Al-Fajri",
+    role: "Sekretaris",
+    komisi: "Waket 1",
+    url: fikri,
+  },
+  {
+    title: "Zulfia Zahra",
+    role: "Sekretaris",
+    komisi: "Waket 1",
+    url: zara,
+  },
+  { title: "Eva Masdareva", role: "Sekretaris", komisi: "Waket 1", url: eva },
+  {
+    title: "Yunita Zamzam Manik",
+    role: "Bendahara",
+    komisi: "Waket 2",
+    url: yunita,
+  },
+  {
+    title: "Nadya Mutia Safira",
     role: "Staff Bendahara",
     komisi: "Waket 2",
-    url: salma,
+    url: nadya,
   },
-  { title: "Ahmad Muzakky", role: "PI Hukum", komisi: "Komisi I", url: zaki },
+  { title: "Egy Samisdi", role: "PI Hukum", komisi: "Komisi I", url: egy },
   {
-    title: "Devita Cahyani R",
+    title: "Muhammad Miqdad",
     role: "Staff Hukum",
     komisi: "Komisi I",
-    url: devita,
+    url: miqdad,
   },
   {
-    title: "Himmah Aliyah W",
+    title: "Salsha Bilah",
     role: "Staff Hukum",
     komisi: "Komisi I",
-    url: himmah,
-  },
-  {
-    title: "M. Rayyan Azka",
-    role: "PI Aspirasi",
-    komisi: "Komisi II",
-    url: azka,
-  },
-  {
-    title: "Alipia Salsabilah ",
-    role: "Staff Aspirasi",
-    komisi: "Komisi II",
-    url: alip,
+    url: salsha,
   },
   {
     title: "Imada Sulthan",
-    role: "Staff Aspirasi",
+    role: "PI Aspirasi",
     komisi: "Komisi II",
     url: imada,
   },
   {
-    title: "Assaufi Anggie",
+    title: "Jamilatun Khoerunnisa",
+    role: "Staff Aspirasi",
+    komisi: "Komisi II",
+    url: mila,
+  },
+  {
+    title: "Muhammad Yafie Akmal",
+    role: "Staff Aspirasi",
+    komisi: "Komisi II",
+    url: yafie,
+  },
+  {
+    title: "Salma Salsabila Fitrah",
     role: "PI Kelembagaan",
     komisi: "Komisi III",
-    url: assaufi,
+    url: salma,
   },
   {
-    title: "Annisa Sulistyorini",
+    title: "Syifa Rahmatia R",
     role: "Staff Kelembagaan",
     komisi: "Komisi III",
-    url: annisa,
+    url: syifa,
   },
   {
-    title: "Fathi Farhat Hidayat",
+    title: "Syaffa Mufidah",
     role: "Staff Kelembagaan",
     komisi: "Komisi III",
-    url: farhat,
-  },
-  {
-    title: "Yozi Berlianda",
-    role: "PI Kaderisasi",
-    komisi: "Komisi IV",
-    url: yozi,
+    url: syaffa,
   },
   {
     title: "Ali Akbar",
-    role: "Staff Kaderisasi",
+    role: "PI Kaderisasi",
     komisi: "Komisi IV",
     url: ali,
   },
   {
-    title: "Egy Samisdi",
+    title: "Syahidah Y A",
     role: "Staff Kaderisasi",
     komisi: "Komisi IV",
-    url: egy,
+    url: saya,
   },
-  { title: "Fikri Pratama", role: "PI PSDM", komisi: "PSDM", url: fikri },
-  { title: "F Zulfia Zahra J", role: "Staff PSDM", komisi: "PSDM", url: ara },
-  { title: "Al-Fatih A", role: "PI Media", komisi: "Media", url: alfatih },
-  { title: "Sausan Rafila", role: "Staff Media", komisi: "Media", url: sausan },
   {
-    title: "Margi Salsabila",
+    title: "Marsha Nurhaliza",
+    role: "Staff Kaderisasi",
+    komisi: "Komisi IV",
+    url: marsha,
+  },
+  {
+    title: "Devita Cahyani R",
+    role: "PI PSDM",
+    komisi: "PSDM",
+    url: devita,
+  },
+  { title: "Sausan Rafila", role: "Staff PSDM", komisi: "PSDM", url: sausan },
+  {
+    title: "Aria Kristallinacht S",
+    role: "Staff PSDM",
+    komisi: "PSDM",
+    url: aria,
+  },
+  { title: "Margi Salsabila", role: "PI Media", komisi: "Media", url: margi },
+  {
+    title: "Althaf Sulistyo W",
     role: "Staff Media",
     komisi: "Media",
-    url: margi,
+    url: althaf,
+  },
+  {
+    title: "Fatya Khonsa M",
+    role: "Staff Media",
+    komisi: "Media",
+    url: fatya,
   },
 ];

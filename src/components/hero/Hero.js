@@ -2,7 +2,7 @@ import React from "react";
 
 import { HiArrowNarrowRight } from "react-icons/hi";
 
-import LogoDPM from "../../assets/logo.png";
+import LogoDPM from "../../assets/logo-bg.png";
 import { Link } from "react-scroll";
 import StyledHero from "./Hero.styled";
 import SuperTitle from "../ui/superTitle/SuperTitle";
@@ -16,8 +16,8 @@ function Hero() {
     <Wrapper>
       <StyledHero name="hero">
         <Container>
-          <SuperTitle>Dewan Perwakilan Mahasiswa</SuperTitle>
-          <h2> - Anda mengaspirasi kami terinspirasi ! - </h2>
+          <SuperTitle>Dewan Perwakilan Mahasiswa 2023</SuperTitle>
+          <h2> - Siap menjalankan Reformasi ! - </h2>
           <Link to="carouselVertical" smooth={true} duration={500}>
             <Button lg>
               Yuk Kenalan
@@ -28,7 +28,7 @@ function Hero() {
           </Link>
         </Container>
         <Container>
-          <Logo src={LogoDPM} width="300" />
+          <Logo src={LogoDPM} width="400" />
         </Container>
       </StyledHero>
     </Wrapper>

@@ -51,8 +51,8 @@ export default function Carousel() {
   return (
     <Wrapper name="carousel">
       <StyledCarousel>
-        <Title> Reformasi Santai Squad</Title>
-        <Subtitle>PI dan Staff Reformasi Santai</Subtitle>
+        <Title>Dewan ALPHA ESTAFETA</Title>
+        <Subtitle>PI dan Staff ALPHA ESTAFETA</Subtitle>
         <Slider {...settings}>
           {member.map((member) => (
             <CarouselCard

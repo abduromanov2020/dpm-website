@@ -35,7 +35,7 @@ function Navbar({ isLoginPage }) {
       <Wrapper>
         <StyledNavbar>
           <Container>
-            <Logo src={LogoDPM} width="70em" />
+            <Logo src={LogoDPM} width="90em" />
           </Container>
           <Container>
             <NavGroup>

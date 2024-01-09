@@ -33,7 +33,7 @@
   --secondary-color: #248bcc;
   --light-mode:#fff;
   --dark-mode:#111;
-  --gradient-color: linear-gradient(90deg, hsla(203, 70%, 47%, 1) 0%, hsla(206, 85%, 26%, 1) 100%);
+  --gradient-color: linear-gradient(0deg, hsla(4, 73%, 53%, 1), hsla(35, 100%, 50%,1) 100%);
   --gilroy: "Gilroyz"
 }
 

@@ -20,6 +20,13 @@ const StyledFooter = styled.footer`
     gap: 0.2rem;
   }
 
+  h1,
+  h2,
+  p,
+  a {
+    color: var(--primary-color);
+  }
+
   p:last-child {
     font-size: 0.9em;
     font-weight: bold;
@@ -38,14 +45,12 @@ const StyledFooter = styled.footer`
   }
 
   h1 {
-    color: white;
     text-align: start;
   }
 
   a {
     font-family: "Franklin", sans-serif;
     font-size: 1.05em;
-    color: white;
     cursor: pointer;
   }
 

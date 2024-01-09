@@ -1,11 +1,11 @@
 export const listProdukHukum = [
   {
     title: "Anggaran Dasar",
-    link: "https://drive.google.com/file/d/1I0B-xa2fksKZk2Pc9z-hc_2dxXhkhlBF/view?usp=sharing",
+    link: "https://drive.google.com/file/d/1oYe_faozvXZ4gYrbbigQLafUn7CG_ub6/view?usp=sharing",
   },
   {
     title: "Anggaran Rumah Tangga",
-    link: "https://drive.google.com/file/d/1o056L3mah9I0S0CgHfSkiGzD47XU46DX/view?usp=sharing",
+    link: "https://drive.google.com/file/d/1LOt5MEygEOCPyxVDS-aluHvwGzjW7AVP/view?usp=sharing",
   },
   {
     title: "SOP",
@@ -36,15 +36,23 @@ export const listProdukHukum = [
     link: "https://drive.google.com/file/d/19AQwJKP_6AnujvEHWFDMf336lDeI6VOR/view?usp=sharing",
   },
   {
-    title: "TAP LDMKM 2022",
-    link: "https://drive.google.com/file/d/1o96TGmar4Re1lCawK50t2BBxO4Y-nF4c/view?usp=sharing",
+    title: "TAP PANITIA PEMIRA",
+    link: "https://drive.google.com/file/d/1kb4vFPugQBOkur4IW5OEGkc_6aCjqxUS/view?usp=drivesdk"
   },
   {
-    title: "TAP ORMIK 2022",
-    link: "https://drive.google.com/file/d/1nFrsQfIK3BmY9ExB1EMcF82wwm6NnrdN/view?usp=sharing",
+    title: "TAP PEMIRA",
+    link: "https://drive.google.com/file/d/1BshXc4emNw_wtAIVO7X1M33HXbsq9JFR/view?usp=drivesdk"
   },
   {
-    title: "TAP PEMIRA 2022",
-    link: "https://drive.google.com/file/d/1j-aNYnIJOO3vhYntIopteY0YPYspaHaT/view?usp=sharing",
+    title: "TAP LDMKM",
+    link: "https://drive.google.com/file/d/1uqZ-odbOoOXyJCcAozkSHMde8JGBj7La/view?usp=sharing"
+  },
+  {
+    title: "TAP UKM",
+    link: "https://drive.google.com/file/d/1buKHMX2xAoQl9jBbapjqENA6MlhH89BF/view?usp=drivesdk"
+  },
+  {
+    title: "TAP ORMIK",
+    link: "https://drive.google.com/file/d/1uES78oO3CiWBn3FgFNmdH_JE8NdZsaMs/view?usp=drivesdk"
   },
 ];

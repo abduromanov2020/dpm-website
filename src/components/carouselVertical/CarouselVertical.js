@@ -30,30 +30,29 @@ export default function CarouselVertical() {
 
   return (
     <Wrapper name="carouselVertical">
-      <Title>Visi & Misi Reformasi Santai</Title>
-      <Subtitle>DPM 2022 - Reformasi Santai</Subtitle>
+      <Title>Visi & Misi</Title>
+      <Subtitle>DPM 2023 - ALPHA ESTAFETA</Subtitle>
       <StyledCarousel>
         <Container>
           <Title>Visi</Title>
           <p>
-            Mewujudkan DPM sebagai lembaga yang dapat mengayomi nilai niali
-            hukum keorganisasian lFK STT NF dengan SANTAI (Sinergi, Aktif,
-            Nyata, Transparan, Aspiratif, Integratif)
+            Menjadikan Dewan Perwakilan Mahasiswa STT NF yang berintegritas dan
+            aktif dengan asas kebersamaan dan kekeluargaan dalam melaksanakan
+            fungsi dari DPM.
           </p>
           <Title>Misi</Title>
           <ol>
-            <li>Mengoptimalkan fungsi lembaga DPM dalam lingkungan STT NF</li>
             <li>
-              Menciptakan suasana kepengurusan yang harmonis didalam internal
-              DPM
+              Meningkatkan loyalitas, solidaritas dan kekeluargaan internal DPM
+              STT NF
             </li>
             <li>
-              Bersinergi bersama LFK STT NF guna membangun kualitas hubungan dan
-              komunikasi yang baik antai LFK STT NF
+              Mengoptimalkan landasan hukum dan fungsi pengawasan, aspirasi dan
+              kaderisasi DPM STT NF
             </li>
             <li>
-              Mengevaluasi serta membenahi produk hukum yang ada demi
-              kelangsungan sistem organisasi yang terstruktur rapih di STT NF
+              Meningkatkan komunikasi dan kedekatan antar Organisasi
+              Kemahasiswaan STT NF
             </li>
           </ol>
         </Container>
